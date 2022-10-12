@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tastenow</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header id="home">
+      <!-- Navbar starts -->
+      <nav class="nav fixed-width">
+        <div class="brand">
+          <div class="burger">
+            <div class="bar-top"></div>
+            <div class="bar-bottom"></div>
+          </div>
+          <a href="#" class="nav-brand">Tastenow</a>
+        </div>
+        <div class="nav__right-content">
+          <ul class="main-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#know-us">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#footer">Contact us</a></li>
+          </ul>
+          <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#" class="btn btn-sign-up">Sign up</a>
+        </div>
+      </nav>
+      <!-- Mobile nav starts -->
+      <div class="mobile-nav">
+        <button class="close"><i class="fa-solid fa-x"></i></button>
+        <div class="brand">
+          <a href="#" class="nav-brand">Tastenow</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#know-us">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#footer">Contact us</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn btn-sign-up-alt">Sign up</a>
+      </div>
+      <!-- Mobile nav ends -->
+      <!-- Navbar Ends -->
+
+      <!-- Header content/Hero starts -->
+      <section id="hero">
+        <div class="hero__content fixed-width">
+          <div class="hero__left-content">
+            <h1>Experience food<br /><span>Delivery</span> like no other</h1>
+            <p>
+              We deliver the food of your choice wherever, whenever. Select your
+              food from only the top restaurants in the area, and get it in a
+              flash. Download the app now to discover more.
+            </p>
+          </div>
+          <div class="hero__right-content">
+            <img src="./images/intro.png" alt="Food" />
+          </div>
+        </div>
+      </section>
+      <!-- Header content/Hero ends -->
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Categories section starts -->
+    <section id="categories">
+      <div class="categories__content fixed-width">
+        <h2>Our Popular <span>Categories</span></h2>
+        <!-- Categories -->
+        <div class="categories__type">
+          <button class="category active">
+            <i class="fa-solid fa-pizza-slice"></i><span>Pizzas</span>
+          </button>
+          <button class="category">
+            <i class="fa-solid fa-burger"></i><span>Burgers</span>
+          </button>
+          <button class="category">
+            <i class="fa-solid fa-bowl-food"></i><span>Salads</span>
+          </button>
+          <button class="category">
+            <i class="fa-solid fa-champagne-glasses"></i><span>Combos</span>
+          </button>
+        </div>
+        <!-- Slider -->
+        <div class="swiper-container">
+          <div class="swiper menu-item-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="card-badge">
+                      <img src="./images/star-full.png" alt="Rating" />
+                      <p>5</p>
+                    </div>
+                    <div class="card-image">
+                      <img src="./images/pizza1.png" alt="Pizza" />
+                    </div>
+                    <div class="card-text">
+                      <p class="title">Pepperoni Pizza</p>
+                      <p class="restaurant">Di napoles</p>
+                      <p class="price">$11,99</p>
+                    </div>
+                    <button class="btn btn-cart">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="card-badge">
+                      <img src="./images/star-half.png" alt="Rating" />
+                      <p>4.5</p>
+                    </div>
+                    <div class="card-image">
+                      <img src="./images/pizza2.png" alt="Pizza" />
+                    </div>
+                    <div class="card-text">
+                      <p class="title">Pepperoni Pizza</p>
+                      <p class="restaurant">Di napoles</p>
+                      <p class="price">$13,99</p>
+                    </div>
+                    <button class="btn btn-cart">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="card-badge">
+                      <img src="./images/star-half.png" alt="Rating" />
+                      <p>4.3</p>
+                    </div>
+                    <div class="card-image">
+                      <img src="./images/pizza3.png" alt="Pizza" />
+                    </div>
+                    <div class="card-text">
+                      <p class="title">Vegetarian Pizza</p>
+                      <p class="restaurant">Cosa di Mario</p>
+                      <p class="price">$12,99</p>
+                    </div>
+                    <button class="btn btn-cart">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="card-badge">
+                      <img src="./images/star-half.png" alt="Rating" />
+                      <p>4</p>
+                    </div>
+                    <div class="card-image">
+                      <img src="./images/pizza4.png" alt="Pizza" />
+                    </div>
+                    <div class="card-text">
+                      <p class="title">Mediterranean Pizza</p>
+                      <p class="restaurant">Milano</p>
+                      <p class="price">$15,99</p>
+                    </div>
+                    <button class="btn btn-cart">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories section ends -->
+
+    <!-- Know us section starts -->
+    <section id="know-us">
+      <div class="know-us__content fixed-width">
+        <h2>Get to know <span>us</span></h2>
+        <div class="know-us__info-content">
+          <img src="./images/team.png" alt="Team" class="info-item" />
+          <div class="team-text info-item">
+            <h5><span>Teamwork</span> is the key to our sucess</h5>
+            <p>
+              At TasteNow we make sure that every decision is determined by a
+              team of us. Everyone´s opinion matters, and as group, we are
+              stronger. We firmly belive that team work, makes the dream work.
+            </p>
+          </div>
+          <div class="env-text info-item">
+            <h5>We are all in for the <span>enviroment</span></h5>
+            <p>
+              TasteNow donates $1 penny for every purchase made from the app to
+              an organization that takes care of our enviromet. We belive that
+              with everyone´s help, we can make a better world.
+            </p>
+          </div>
+          <img
+            src="./images/environment.png"
+            alt="Environment"
+            class="info-item"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Know us section ends -->
+
+    <!-- Footer section starts -->
+    <footer id="footer">
+      <div class="footer__content fixed-width">
+        <div class="footer__brand">
+          <a href="#home" class="footer__brand">Tastenow</a>
+          <div class="footer__socials">
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><a href="#">Seslendirme ve Alt Jazz</a></li>
+            <li><a href="#">Media Market</a></li>
+            <li><a href="#">Gillie</a></li>
+            <li><a href="#">Size Last</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><a href="#">Self Betimes</a></li>
+            <li><a href="#">Yatırımcı İlişkileri</a></li>
+            <li><a href="#">Basal Himmler</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><a href="#">Yard Market</a></li>
+            <li><a href="#">Is İmkanları</a></li>
+            <li><a href="#">Car Tercihleri</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><a href="#">Hedge Karla</a></li>
+            <li><a href="#">Mullein Koşulları</a></li>
+            <li><a href="#">Autumnal Bulgier</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section ends -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
