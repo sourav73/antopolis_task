@@ -118,19 +118,23 @@ header::before {
 }
 /* Navbar starts */
 .nav {
+  background: var(--text-white);
+}
+
+.nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-block: 1rem;
-  background: var(--text-white);
   transition: 0.3s;
 }
 
 .nav.sticky {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 98;
-  width: 100%;
 }
 
 .brand {
@@ -522,8 +526,11 @@ header::before {
 
 @media (max-width: 992px) {
   .nav {
-    padding-block: 0.5rem;
     box-shadow: inset 0px -1px 0px #ebebeb;
+  }
+
+  .nav-content {
+    padding-block: 0.5rem;
   }
 
   .main-nav {

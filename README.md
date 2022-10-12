@@ -12,3 +12,5 @@ Bonus Marks for:
 2. 100% responsive Navbar
 3. Our Popular Categories slider, using swiper-js
 4. Get to know us section, using grid for layout and managing row with odd even
+
+<a href="https://sourav73.github.io/antopolis_task/" target="_blank">Live Demo<a/>

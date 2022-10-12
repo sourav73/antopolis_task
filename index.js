@@ -50,8 +50,10 @@ nav.classList.add("test");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 250) {
     nav.classList.add("sticky");
+    // nav.classList.remove("fixed-width");
   } else {
     nav.classList.remove("sticky");
+    // nav.classList.add("fixed-width");
   }
 });
 
