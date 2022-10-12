@@ -13,4 +13,4 @@ Bonus Marks for:
 3. Our Popular Categories slider, using swiper-js
 4. Get to know us section, using grid for layout and managing row with odd even
 
-<a href="https://sourav73.github.io/antopolis_task/" target="_blank">Live Demo<a/>
+<a href="https://antopolis-task.netlify.app/" target="_blank">Live Demo<a/>
